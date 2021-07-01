@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Quarkus Chat!</title>
+<link rel="stylesheet" type="text/css"
+	href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/css/patternfly.min.css">
+<link rel="stylesheet" type="text/css"
+	href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/css/patternfly-additions.min.css">
+
+<style>
+#chat {
+	resize: none;
+	overflow: hidden;
+	min-height: 300px;
+	max-height: 300px;
+}
+</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-pf" role="navigation">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/">
+				<p>
+					<strong>>> Quarkus聊天服务!</strong>
+				</p>
+			</a>
+		</div>
+	</nav>
+	<div class="container">
+		<br />
+		<div class="row">
+			<input id="name" class="col-md-4" type="text" placeholder="your name">
+			<button id="connect" class="col-md-1 btn btn-primary" type="button">连接到聊天服务器</button>
+			<br /> <br />
+		</div>
+		<div class="row">
+			<textarea class="col-md-8" id="chat">
+            </textarea>
+		</div>
+		<div class="row">
+			<input class="col-md-6" id="msg" type="text"
+				placeholder="enter your message">
+			<button class="col-md-1 btn btn-primary" id="send" type="button"
+				disabled>发送消息</button>
+		</div>
+
+	</div>
+
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/js/patternfly.min.js"></script>
+
+	<script type="text/javascript">		
+	    var connected = false; // 定义WebSocket的连接状态变量	    
+		var socket; // 定义WebSocket变量
+
+		// 初始化，#connect（按钮）绑定connect方法，#send（按钮）绑定sendMessage方法
+		$(document).ready(function() {
+			$("#connect").click(connect);
+			$("#send").click(sendMessage);
+
+			//  在name输入框是回车键，调用connect方法
+			$("#name").keypress(function(event) {
+				if (event.keyCode == 13 || event.which == 13) {
+					connect();
+				}
+			});
+
+			//  在msg输入框是回车键，调用connect方法
+			$("#msg").keypress(function(event) {
+				if (event.keyCode == 13 || event.which == 13) {
+					sendMessage();
+				}
+			});
+
+			// 当文本框有变动，调用scrollToBottom方法
+			$("#chat").change(function() {
+				scrollToBottom();
+			});
+
+			$("#name").focus();
+		});
+
+		// 连接到WebSocket服务器
+		var connect = function() {
+			if (!connected) {
+				var name = $("#name").val();
+				console.log("Val: " + name);
+				socket = new WebSocket("ws://" + location.host + "/chat/"+ name);
+				socket.onopen = function() {
+					connected = true;
+					console.log("Connected to the web socket");
+					$("#send").attr("disabled", false);
+					$("#connect").attr("disabled", true);
+					$("#name").attr("disabled", true);
+					$("#msg").focus();
+				};
+				socket.onmessage = function(m) {
+					console.log("Got message: " + m.data);
+					$("#chat").append(m.data + "\n");
+					scrollToBottom();
+				};
+			}
+		};
+
+		// 向WebSocket服务器发送消息
+		var sendMessage = function() {
+			if (connected) {
+				var value = $("#msg").val();
+				console.log("Sending " + value);
+				socket.send(value);
+				$("#msg").val("");
+			}
+		};
+
+		// 当文本框有变动，滚动导航
+		var scrollToBottom = function() {
+			$('#chat').scrollTop($('#chat')[0].scrollHeight);
+		};
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+
+mvnw compile quarkus:dev
+
+
+curl http://localhost:8080/secured/permit-all
+curl http://127.0.0.1:8080/secured/permit-all
+
+
+http://localhost:8080/projects/roles-allowed
+
+http://localhost:8080/secured/permit-all/roles-allowed
+http://localhost:8080/secured/roles-allowed
+
+curl -v http://127.0.0.1:8080/secured/roles-allowed
+
+http://localhost:8900/auth/oauth/token
+
+curl -X POST http://127.0.0.1:8900/auth/oauth/token?grant_type=client_credentials -H  "Accept: application/json" -H  "Authorization: Basic b2F1dGgyX2NsaWVudF9pZDpvYXV0aDJfc2VjcmV0"
+
+
+
+curl -H "Authorization: Bearer 3fe198ce-8caf-40d3-96a0-24414261db16" http://localhost:8080/secured/roles-allowed
+
+curl -H  http://localhost:8080/secured/roles-allowed?token="3fe198ce-8caf-40d3-96a0-24414261db16"
+
+curl -H "Authorization: Bearer 2615e1aa-9b25-4b03-b889-76e9db9eda62" http://localhost:8080/secured/roles-allowed
+
+curl  http://127.0.0.1:8900/auth/oauth/token="3fe198ce-8caf-40d3-96a0-24414261db16"
+
+
+curl -X POST http://127.0.0.1:8900/auth/oauth/token?grant_type=client_credentials  -H  "Accept: application/json" -H  "Authorization: Basic b2F1dGgyX2NsaWVudF9pZDpvYXV0aDJfc2VjcmV0"
+
+curl -H "Authorization:Bearer b382e687-f981-41f6-8729-3b7272547e77" http://localhost:8080/secured/roles-allowed -v 
+
+curl -H "Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI0MTIwZTRkNi01OTcwLTQ2NmYtYjE5My00ZDg1ZmFjYzYwOTUifQ.eyJleHAiOjAsImlhdCI6MTYwOTMxMjQwOCwianRpIjoiMThjM2E2NWUtODYxNC00M2NiLThkMTItOGI5YTc5ZGMwZDJkIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4ODg4L2F1dGgvcmVhbG1zL21hc3RlciIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODg4OC9hdXRoL3JlYWxtcy9tYXN0ZXIiLCJ0eXAiOiJSZWdpc3RyYXRpb25BY2Nlc3NUb2tlbiIsInJlZ2lzdHJhdGlvbl9hdXRoIjoiYXV0aGVudGljYXRlZCJ9.HFEyvm3D3MdkNXX-CuCBVa8_mQDKI9nu4u2qaEIgWC4" http://localhost:8080/secured/roles-allowed -v 
+
+ http://localhost:8888/auth    admin/admin
+
+http://localhost:8888/auth/realms/master/protocol/openid-connect/token grant_type=client_credentials
+
+curl -X POST http://localhost:8888/auth/realms/master/protocol/openid-connect/token -d "grant_type=client_credentials"  -D "client_id=oauth2_client_id" -D "client_secret=02f5ed87-7078-458e-a6ec-cd56c9048788"
+
+
+curl -X POST http://localhost:8888/auth/realms/master/protocol/openid-connect/token -d "grant_type=password"  -D "client_id=quarkus" -D "client_secret=389aa318-5587-4abd-b7a0-a7f034134349"  -D "username=test_viewer"  -D "password=123456" 
+

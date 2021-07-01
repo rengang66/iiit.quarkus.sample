@@ -1,0 +1,7 @@
+# Project exclude paths
+/040-quarkus-sample-kafka-streams/target/
+/055-quarkus-sample-security-keycloak/target/
+/056-quarkus-sample-security-openid-connect-web/target/
+/061-quarkus-sample-reactive-sqlclient/target/
+/103-quarkus-sample-integrate-spring-security/target/
+/105-quarkus-sample-integrate-springcloud-configserver/105-springcloud-config-server/target/

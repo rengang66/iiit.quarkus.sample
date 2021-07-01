@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.iiit:quarkus-sample-extension-project:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/iiit/quarkus-sample-extension-project/1.0-SNAPSHOT/quarkus-sample-extension-project-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/iiit/quarkus-sample-extension-project/1.0-SNAPSHOT/quarkus-sample-extension-project-1.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/iiit/quarkus-sample-extension-project/1.0-SNAPSHOT/quarkus-sample-extension-project-1.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

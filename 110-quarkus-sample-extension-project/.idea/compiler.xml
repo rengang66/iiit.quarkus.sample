@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for iiit Project Extension - Parent" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/quarkus/quarkus-extension-processor/1.9.2.Final/quarkus-extension-processor-1.9.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/jboss/jdeparser/jdeparser/2.0.2.Final/jdeparser-2.0.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.12.1/jsoup-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/github/javaparser/javaparser-core/3.14.10/javaparser-core-3.14.10.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/asciidoctor/asciidoctorj/2.3.0/asciidoctorj-2.3.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/asciidoctor/asciidoctorj-api/2.3.0/asciidoctorj-api-2.3.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/jruby/jruby/9.2.11.1/jruby-9.2.11.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/jruby/jruby-core/9.2.11.1/jruby-core-9.2.11.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/github/jnr/jnr-netdb/1.1.6/jnr-netdb-1.1.6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/github/jnr/jnr-enxio/0.25/jnr-enxio-0.25.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/github/jnr/jnr-constants/0.9.15/jnr-constants-0.9.15.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/github/jnr/jnr-unixsocket/0.28/jnr-unixsocket-0.28.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/github/jnr/jnr-posix/3.0.54/jnr-posix-3.0.54.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/github/jnr/jffi/1.2.23/jffi-1.2.23.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/github/jnr/jffi/1.2.23/jffi-1.2.23-native.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/jruby/joni/joni/2.1.31/joni-2.1.31.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/jruby/jcodings/jcodings/1.0.46/jcodings-1.0.46.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/jruby/dirgra/0.3/dirgra-0.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/headius/invokebinder/1.11/invokebinder-1.11.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/headius/options/1.4/options-1.4.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/jcraft/jzlib/1.1.3/jzlib-1.1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/headius/backport9/1.3/backport9-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/jruby/jruby-stdlib/9.2.11.1/jruby-stdlib-9.2.11.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/beust/jcommander/1.72/jcommander-1.72.jar" />
+        </processorPath>
+        <module name="quarkus-sample-extension-project" />
+        <module name="quarkus-sample-extension-project-deployment" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="quarkus-sample-extension-project" target="1.8" />
+      <module name="quarkus-sample-extension-project-deployment" target="1.8" />
+      <module name="quarkus-sample-extension-project-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

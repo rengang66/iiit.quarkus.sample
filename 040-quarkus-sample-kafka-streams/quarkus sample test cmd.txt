@@ -1,0 +1,11 @@
+mvnw compile quarkus:dev
+
+curl http://localhost:8080/projects/hello
+
+curl http://localhost:8080/projects/startup
+
+curl http://localhost:8080/projects/commit
+
+curl http://localhost:8080/projects/producer/reng
+
+curl http://localhost:8080/projects/consumer

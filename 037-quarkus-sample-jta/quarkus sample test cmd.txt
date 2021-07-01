@@ -1,0 +1,14 @@
+
+mvnw compile quarkus:dev
+
+
+curl http://localhost:8080/projects/usertransaction/
+
+curl http://localhost:8080/projects/jpaTransaction/
+
+curl http://localhost:8080/projects/transactionmanager/
+
+curl http://localhost:8080/projects/transaction/
+
+curl http://localhost:8080/projects/jpaTransaction/
+

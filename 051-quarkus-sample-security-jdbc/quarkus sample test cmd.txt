@@ -1,0 +1,18 @@
+
+mvnw compile quarkus:dev
+
+curl -i -X GET http://localhost:8080/projects/api/public
+
+curl -i -X GET -u  http://localhost:8080/projects/api/admin
+
+curl -i -X GET -u admin:admin http://localhost:8080/projects/api/admin
+
+curl -i -X GET -u http://localhost:8080/projects/api/users/user
+
+curl -i -X GET -u reng:1234 http://localhost:8080/projects/api/users/user
+
+
+
+
+
+

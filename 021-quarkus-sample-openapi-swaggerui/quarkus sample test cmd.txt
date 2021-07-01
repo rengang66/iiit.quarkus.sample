@@ -1,0 +1,9 @@
+
+mvnw compile quarkus:dev
+
+
+curl http://localhost:8080/openapi
+
+http://localhost:8080/openapi
+
+http://localhost:8080/swagger-ui

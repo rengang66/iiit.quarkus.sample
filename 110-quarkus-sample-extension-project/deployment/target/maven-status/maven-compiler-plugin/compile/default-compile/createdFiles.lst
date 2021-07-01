@@ -1,0 +1,4 @@
+META-INF\quarkus-build-steps.list
+META-INF\quarkus-javadoc.properties
+com\iiit\quarkus\sample\extension\project\deployment\ProjectManagerProcessor.class
+com\iiit\quarkus\sample\extension\project\deployment\ProjectManagerProcessor$$accessor.class

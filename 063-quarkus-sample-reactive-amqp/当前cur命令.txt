@@ -1,0 +1,19 @@
+
+mvnw compile quarkus:dev
+
+
+http://localhost:8161/
+http://localhost:8161/console/login
+
+curl http://localhost:8080/prices
+http://localhost:8080/prices
+
+
+curl http://localhost:8080/prices/last
+http://localhost:8080/prices/last
+
+
+curl http://localhost:8080/prices/stream
+curl http://localhost:8080/prices/amqp
+
+curl http://localhost:8080/projects/amqp

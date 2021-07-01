@@ -1,0 +1,3 @@
+com\iiit\quarkus\sample\extension\project\Project.class
+com\iiit\quarkus\sample\extension\project\ProjectResource.class
+com\iiit\quarkus\sample\extension\project\ProjectService.class

@@ -1,0 +1,16 @@
+
+mvnw compile quarkus:dev
+
+curl http://localhost:8080/health/
+http://localhost:8080/health/
+
+
+curl http://localhost:8080/health/live
+http://localhost:8080/health/live
+
+curl http://localhost:8080/health/ready
+http://localhost:8080/health/ready
+
+http://localhost:8080/health-ui/
+
+curl http://localhost:8080/metric/77

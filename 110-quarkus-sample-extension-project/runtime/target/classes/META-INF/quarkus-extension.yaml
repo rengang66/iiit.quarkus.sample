@@ -1,0 +1,6 @@
+---
+metadata: {}
+group-id: "com.iiit"
+artifact-id: "quarkus-sample-extension-project"
+version: "1.0-SNAPSHOT"
+name: "iiit Project Extension - Runtime"

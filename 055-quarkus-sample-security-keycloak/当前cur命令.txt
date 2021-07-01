@@ -1,0 +1,55 @@
+
+mvnw compile quarkus:dev
+
+
+curl -i -X GET http://localhost:8080/api/public
+
+curl -i -X GET http://localhost:8080/api/users/me
+
+curl -i -X GET http://localhost:8080/api/admin
+
+curl -i -X GET http://localhost:8080/api/public
+
+http://localhost:8080/projects/api/admin
+http://localhost:8080/projects/api/users/user
+
+curl -X POST http://localhost:8180/auth/realms/quarkus/protocol/openid-connect/token ^
+--user backend-service:secret ^
+-H "content-type: application/x-www-form-urlencoded" ^
+-d "username=alice&password=alice&grant_type=password"
+
+curl -X POST http://localhost:8180/auth/realms/quarkus/protocol/openid-connect/token ^
+--user backend-service:secret ^
+-H "content-type: application/x-www-form-urlencoded" ^
+-d "username=rengang&password=123456&grant_type=password"
+
+curl -X POST http://localhost:8180/auth/realms/quarkus/protocol/openid-connect/token ^
+--user backend-service:secret ^
+-H "content-type: application/x-www-form-urlencoded" ^
+-d "username=admin&password=admin&grant_type=password"
+
+curl -X POST http://localhost:8180/auth/realms/quarkus/protocol/openid-connect/token ^
+--user backend-service:secret ^
+-H "content-type: application/x-www-form-urlencoded" ^
+-d "username=jdoe&password=jdoe&grant_type=password"
+
+
+http://localhost:8080/api/users/me
+
+
+http://localhost:8080/api/admin
+
+http://localhost:8080/api/public
+
+
+
+http://localhost:8180/auth/realms/quarkus/account
+
+http://localhost:8180/auth/
+
+
+curl -i -X GET -u admin:1234 http://localhost:8080/api/admin
+
+curl -i -X GET http://localhost:8080/api/user
+
+curl -i -X GET -u rengang:123456 http://localhost:8080/api/users/user

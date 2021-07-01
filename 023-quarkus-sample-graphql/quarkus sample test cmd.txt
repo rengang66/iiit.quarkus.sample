@@ -1,0 +1,179 @@
+mvnw compile quarkus:dev
+
+
+curl http://localhost:8080/graphql/schema.graphql
+
+http://localhost:8080/graphql-ui/
+
+query allFilms {
+  allFilms {
+    title
+    director
+    releaseDate
+    episodeID
+  }
+}
+
+query projects {
+  projects {
+    id
+    name
+    description
+    level
+  }
+}
+
+query getFilms {
+  film0: film(filmId: 0) {
+    title
+    director
+    releaseDate
+    episodeID
+  }
+  film1: film(filmId: 1) {
+    title
+    director
+    releaseDate
+    episodeID
+  }
+}
+
+query project {
+  project1: project(id: 1) {
+    id
+    name
+    description
+    level
+  }  
+}
+
+
+query project {
+  project1: project(id: 1) {
+    id
+    name
+    description
+    level
+  }
+  project2: project(id: 2) {
+    id
+    name
+    description
+    level
+  }
+}
+
+
+query getFilmHeroes {
+  film(filmId: 1) {
+    title
+    director
+    releaseDate
+    episodeID
+    heroes {
+      name
+      height
+      mass
+      darkSide
+      lightSaber
+    }
+  }
+}
+
+
+
+query projects {
+  projects {
+    id
+    name
+    description
+    level
+    childProjects{
+       id
+       name
+       description
+       level   
+       childProjects{
+          id
+           name
+          description
+          level       
+      }    
+     }
+  }
+}
+
+
+
+mutation addHero {
+  createHero(hero: {
+      name: "Han",
+      surname: "Solo"
+      height: 1.85
+      mass: 80
+      darkSide: false
+      episodeIds: [4, 5, 6]
+  	}
+  )
+  {
+    name
+    surname
+  }
+}
+
+mutation addProject {
+  add(project: {
+      id: 10,
+       name: "项目G",
+       description: "关于项目G的描述",
+       level : 1
+     }
+  )
+  {
+    id
+    name
+    description
+    level
+   }  
+}
+
+
+mutation DeleteHero {
+  deleteHero(id :3){
+    name
+    surname
+  }
+}
+
+mutation updateProject {
+  update(project: {
+      id: 11,
+       name: "项目H",
+       description: "关于项目H的描述的修改",
+       level : 1
+     }
+    )
+    {
+    id
+    name
+    description
+    level
+  }
+}
+
+
+mutation DeleteProject {
+  delete(project: {
+      id: 10,
+       name: "项目G",
+       description: "关于项目G的描述",
+       level : 1
+     }
+    )
+    {
+    id
+    name
+    description
+    level
+  }
+}

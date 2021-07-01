@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.debezium:debezium-core:test-jar:tests:1.1.0.Final">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/debezium/debezium-core/1.1.0.Final/debezium-core-1.1.0.Final-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/debezium/debezium-core/1.1.0.Final/debezium-core-1.1.0.Final-test-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/debezium/debezium-core/1.1.0.Final/debezium-core-1.1.0.Final-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

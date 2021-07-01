@@ -1,0 +1,15 @@
+
+mvnw compile quarkus:dev
+
+curl http://localhost:8080/hello
+
+curl http://localhost:8080/hello/config
+
+curl http://localhost:8080/hello/reng
+
+
+
+
+
+
+

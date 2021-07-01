@@ -1,0 +1,12 @@
+
+mvnw compile quarkus:dev
+
+
+
+http://localhost:8080/projects/tokens
+
+
+
+
+
+

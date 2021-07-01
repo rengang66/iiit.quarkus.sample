@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">	
+	
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.iiit.quarkus.sample</groupId>
+	<artifactId>quarkus-sample</artifactId>
+	<version>1.0-SNAPSHOT</version>	
+	 <packaging>pom</packaging>
+	
+	<modules>
+        <module>010-quarkus-hello</module>
+        <module>011-quarkus-hello-cdi</module>        
+        <module>012-quarkus-hello-command-mode</module>
+        <module>013-quarkus-hello-lifecycle</module> 
+        <module>014-quarkus-hello-config</module>	
+        <module>015-quarkus-hello-logging</module>
+        <module>016-quarkus-hello-cache</module>
+        <module>018-quarkus-sample-gof23</module>	
+        <module>020-quarkus-sample-rest-json</module>	
+        <module>021-quarkus-sample-openapi-swaggerui</module>
+        <module>023-quarkus-sample-graphql</module>
+        <module>024-quarkus-sample-websockets</module>
+        <module>031-quarkus-sample-orm-hibernate</module>	
+        <module>032-quarkus-sample-orm-hibernate-h2</module>
+        <module>033-quarkus-sample-redis</module>
+        <module>034-quarkus-sample-mongodb</module>
+        <module>035-quarkus-sample-orm-panache-activerecord</module>	
+        <module>036-quarkus-sample-jpa-transaction</module>
+		<module>037-quarkus-sample-jta</module>		
+        <module>040-quarkus-sample-kafka-streams</module>
+        <module>041-quarkus-sample-jms-artemis</module>	
+        <module>042-quarkus-sample-jms-qpid</module>	
+        <module>045-quarkus-sample-mqtt</module>
+		<module>050-quarkus-sample-security-file</module>		
+        <module>051-quarkus-sample-security-jdbc</module>
+        <module>052-quarkus-sample-security-jpa</module>
+        <module>053-quarkus-sample-security-jwt</module>	
+        <module>054-quarkus-sample-security-oauth2</module>
+		<module>055-quarkus-sample-security-keycloak</module>
+		<module>056-quarkus-sample-security-openid-connect-web</module>
+		<module>057-quarkus-sample-security-openid-connect-service</module>
+        <module>060-quarkus-sample-reactive-mutiny</module>
+        <module>061-quarkus-sample-reactive-sqlclient</module>
+        <module>062-quarkus-sample-reactive-redis</module>	
+        <module>063-quarkus-sample-reactive-amqp</module>
+        <module>064-quarkus-sample-reactive-mongodb</module>
+        <module>065-quarkus-sample-reactive-hibernate</module>	
+		<module>066-quarkus-sample-reactive-kafka</module>		
+        <module>067-quarkus-sample-vertx</module>	
+        <module>070-quarkus-sample-fault-tolerance</module>
+        <module>071-quarkus-sample-microprofile-health</module>
+        <module>073-quarkus-sample-opentracing</module>
+        <module>100-quarkus-sample-integrate-spring-di</module>	
+        <module>101-quarkus-sample-integrate-spring-web</module>
+        <module>102-quarkus-sample-integrate-spring-data</module>
+        <module>103-quarkus-sample-integrate-spring-security</module>
+        <module>104-quarkus-sample-integrate-springboot-properties</module>
+		<module>105-quarkus-sample-integrate-springcloud-configserver</module>		
+        <module>114-quarkus-hello-extends-test</module> 
+		<module>120-quarkus-sample-container-image</module> 
+		<module>121-quarkus-sample-kubernetes</module> 
+		<module>122-quarkus-sample-openshift</module> 
+		<module>123-quarkus-sample-knative</module> 
+		<module>124-quarkus-sample-kubernetes-customizing</module>		
+    </modules>
+	
+	
+</project>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/010-quarkus-hello/010-quarkus-hello.iml" filepath="$PROJECT_DIR$/010-quarkus-hello/010-quarkus-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/011-quarkus-hello-cdi/011-quarkus-hello-cdi.iml" filepath="$PROJECT_DIR$/011-quarkus-hello-cdi/011-quarkus-hello-cdi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/012-quarkus-hello-command-mode/012-quarkus-hello-command-mode.iml" filepath="$PROJECT_DIR$/012-quarkus-hello-command-mode/012-quarkus-hello-command-mode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/013-quarkus-hello-lifecycle/013-quarkus-hello-lifecycle.iml" filepath="$PROJECT_DIR$/013-quarkus-hello-lifecycle/013-quarkus-hello-lifecycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/014-quarkus-hello-config/014-quarkus-hello-config.iml" filepath="$PROJECT_DIR$/014-quarkus-hello-config/014-quarkus-hello-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/015-quarkus-hello-logging/015-quarkus-hello-logging.iml" filepath="$PROJECT_DIR$/015-quarkus-hello-logging/015-quarkus-hello-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/016-quarkus-hello-cache/016-quarkus-hello-cache.iml" filepath="$PROJECT_DIR$/016-quarkus-hello-cache/016-quarkus-hello-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/018-quarkus-sample-gof23/018-quarkus-sample-gof23.iml" filepath="$PROJECT_DIR$/018-quarkus-sample-gof23/018-quarkus-sample-gof23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/020-quarkus-sample-rest-json/020-quarkus-sample-rest-json.iml" filepath="$PROJECT_DIR$/020-quarkus-sample-rest-json/020-quarkus-sample-rest-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/021-quarkus-sample-openapi-swaggerui/021-quarkus-sample-openapi-swaggerui.iml" filepath="$PROJECT_DIR$/021-quarkus-sample-openapi-swaggerui/021-quarkus-sample-openapi-swaggerui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/023-quarkus-sample-graphql/023-quarkus-sample-graphql.iml" filepath="$PROJECT_DIR$/023-quarkus-sample-graphql/023-quarkus-sample-graphql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/024-quarkus-sample-websockets/024-quarkus-sample-websockets.iml" filepath="$PROJECT_DIR$/024-quarkus-sample-websockets/024-quarkus-sample-websockets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/031-quarkus-sample-orm-hibernate/031-quarkus-sample-orm-hibernate.iml" filepath="$PROJECT_DIR$/031-quarkus-sample-orm-hibernate/031-quarkus-sample-orm-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/032-quarkus-sample-orm-hibernate-h2/032-quarkus-sample-orm-hibernate-h2.iml" filepath="$PROJECT_DIR$/032-quarkus-sample-orm-hibernate-h2/032-quarkus-sample-orm-hibernate-h2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/033-quarkus-sample-redis/033-quarkus-sample-redis.iml" filepath="$PROJECT_DIR$/033-quarkus-sample-redis/033-quarkus-sample-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/034-quarkus-sample-mongodb/034-quarkus-sample-mongodb.iml" filepath="$PROJECT_DIR$/034-quarkus-sample-mongodb/034-quarkus-sample-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/035-quarkus-sample-orm-panache-activerecord/035-quarkus-sample-orm-panache-activerecord.iml" filepath="$PROJECT_DIR$/035-quarkus-sample-orm-panache-activerecord/035-quarkus-sample-orm-panache-activerecord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/036-quarkus-sample-jpa-transaction/036-quarkus-sample-jpa-transaction.iml" filepath="$PROJECT_DIR$/036-quarkus-sample-jpa-transaction/036-quarkus-sample-jpa-transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/037-quarkus-sample-jta/037-quarkus-sample-jta.iml" filepath="$PROJECT_DIR$/037-quarkus-sample-jta/037-quarkus-sample-jta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/040-quarkus-sample-kafka-streams/040-quarkus-sample-kafka-streams.iml" filepath="$PROJECT_DIR$/040-quarkus-sample-kafka-streams/040-quarkus-sample-kafka-streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/041-quarkus-sample-jms-artemis/041-quarkus-sample-jms-artemis.iml" filepath="$PROJECT_DIR$/041-quarkus-sample-jms-artemis/041-quarkus-sample-jms-artemis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/042-quarkus-sample-jms-qpid/042-quarkus-sample-jms-qpid.iml" filepath="$PROJECT_DIR$/042-quarkus-sample-jms-qpid/042-quarkus-sample-jms-qpid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/045-quarkus-sample-mqtt/045-quarkus-sample-mqtt.iml" filepath="$PROJECT_DIR$/045-quarkus-sample-mqtt/045-quarkus-sample-mqtt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/050-quarkus-sample-security-file/050-quarkus-sample-security-file.iml" filepath="$PROJECT_DIR$/050-quarkus-sample-security-file/050-quarkus-sample-security-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/051-quarkus-sample-security-jdbc/051-quarkus-sample-security-jdbc.iml" filepath="$PROJECT_DIR$/051-quarkus-sample-security-jdbc/051-quarkus-sample-security-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/052-quarkus-sample-security-jpa/052-quarkus-sample-security-jpa.iml" filepath="$PROJECT_DIR$/052-quarkus-sample-security-jpa/052-quarkus-sample-security-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/053-quarkus-sample-security-jwt/053-quarkus-sample-security-jwt.iml" filepath="$PROJECT_DIR$/053-quarkus-sample-security-jwt/053-quarkus-sample-security-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/054-quarkus-sample-security-oauth2/054-quarkus-sample-security-oauth2.iml" filepath="$PROJECT_DIR$/054-quarkus-sample-security-oauth2/054-quarkus-sample-security-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/055-quarkus-sample-security-keycloak/055-quarkus-sample-security-keycloak.iml" filepath="$PROJECT_DIR$/055-quarkus-sample-security-keycloak/055-quarkus-sample-security-keycloak.iml" />
+      <module fileurl="file://$PROJECT_DIR$/056-quarkus-sample-security-openid-connect-web/056-quarkus-sample-security-openid-connect-web.iml" filepath="$PROJECT_DIR$/056-quarkus-sample-security-openid-connect-web/056-quarkus-sample-security-openid-connect-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/057-quarkus-sample-security-openid-connect-service/057-quarkus-sample-security-openid-connect-service.iml" filepath="$PROJECT_DIR$/057-quarkus-sample-security-openid-connect-service/057-quarkus-sample-security-openid-connect-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/060-quarkus-sample-reactive-mutiny/060-quarkus-sample-reactive-mutiny.iml" filepath="$PROJECT_DIR$/060-quarkus-sample-reactive-mutiny/060-quarkus-sample-reactive-mutiny.iml" />
+      <module fileurl="file://$PROJECT_DIR$/061-quarkus-sample-reactive-sqlclient/061-quarkus-sample-reactive-sqlclient.iml" filepath="$PROJECT_DIR$/061-quarkus-sample-reactive-sqlclient/061-quarkus-sample-reactive-sqlclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/062-quarkus-sample-reactive-redis/062-quarkus-sample-reactive-redis.iml" filepath="$PROJECT_DIR$/062-quarkus-sample-reactive-redis/062-quarkus-sample-reactive-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/063-quarkus-sample-reactive-amqp/063-quarkus-sample-reactive-amqp.iml" filepath="$PROJECT_DIR$/063-quarkus-sample-reactive-amqp/063-quarkus-sample-reactive-amqp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/064-quarkus-sample-reactive-mongodb/064-quarkus-sample-reactive-mongodb.iml" filepath="$PROJECT_DIR$/064-quarkus-sample-reactive-mongodb/064-quarkus-sample-reactive-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/065-quarkus-sample-reactive-hibernate/065-quarkus-sample-reactive-hibernate.iml" filepath="$PROJECT_DIR$/065-quarkus-sample-reactive-hibernate/065-quarkus-sample-reactive-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/066-quarkus-sample-reactive-kafka/066-quarkus-sample-reactive-kafka.iml" filepath="$PROJECT_DIR$/066-quarkus-sample-reactive-kafka/066-quarkus-sample-reactive-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/067-quarkus-sample-vertx/067-quarkus-sample-vertx.iml" filepath="$PROJECT_DIR$/067-quarkus-sample-vertx/067-quarkus-sample-vertx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/070-quarkus-sample-fault-tolerance/070-quarkus-sample-fault-tolerance.iml" filepath="$PROJECT_DIR$/070-quarkus-sample-fault-tolerance/070-quarkus-sample-fault-tolerance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/071-quarkus-sample-microprofile-health/071-quarkus-sample-microprofile-health.iml" filepath="$PROJECT_DIR$/071-quarkus-sample-microprofile-health/071-quarkus-sample-microprofile-health.iml" />
+      <module fileurl="file://$PROJECT_DIR$/073-quarkus-sample-opentracing/073-quarkus-sample-opentracing.iml" filepath="$PROJECT_DIR$/073-quarkus-sample-opentracing/073-quarkus-sample-opentracing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/100-quarkus-sample-integrate-spring-di/100-quarkus-sample-integrate-spring-di.iml" filepath="$PROJECT_DIR$/100-quarkus-sample-integrate-spring-di/100-quarkus-sample-integrate-spring-di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/101-quarkus-sample-integrate-spring-web/101-quarkus-sample-integrate-spring-web.iml" filepath="$PROJECT_DIR$/101-quarkus-sample-integrate-spring-web/101-quarkus-sample-integrate-spring-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/102-quarkus-sample-integrate-spring-data/102-quarkus-sample-integrate-spring-data.iml" filepath="$PROJECT_DIR$/102-quarkus-sample-integrate-spring-data/102-quarkus-sample-integrate-spring-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/103-quarkus-sample-integrate-spring-security/103-quarkus-sample-integrate-spring-security.iml" filepath="$PROJECT_DIR$/103-quarkus-sample-integrate-spring-security/103-quarkus-sample-integrate-spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/104-quarkus-sample-integrate-springboot-properties/104-quarkus-sample-integrate-springboot-properties.iml" filepath="$PROJECT_DIR$/104-quarkus-sample-integrate-springboot-properties/104-quarkus-sample-integrate-springboot-properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/105-quarkus-sample-integrate-springcloud-configserver/105-quarkus-sample-integrate-springcloud-configclient/105-quarkus-sample-integrate-springcloud-configclient.iml" filepath="$PROJECT_DIR$/105-quarkus-sample-integrate-springcloud-configserver/105-quarkus-sample-integrate-springcloud-configclient/105-quarkus-sample-integrate-springcloud-configclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/105-quarkus-sample-integrate-springcloud-configserver/105-quarkus-sample-integrate-springcloud-configserver.iml" filepath="$PROJECT_DIR$/105-quarkus-sample-integrate-springcloud-configserver/105-quarkus-sample-integrate-springcloud-configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/105-quarkus-sample-integrate-springcloud-configserver/105-springcloud-config-server/105-springcloud-config-server.iml" filepath="$PROJECT_DIR$/105-quarkus-sample-integrate-springcloud-configserver/105-springcloud-config-server/105-springcloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/114-quarkus-hello-extends-test/114-quarkus-hello-extends-test.iml" filepath="$PROJECT_DIR$/114-quarkus-hello-extends-test/114-quarkus-hello-extends-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/120-quarkus-sample-container-image/120-quarkus-sample-container-image.iml" filepath="$PROJECT_DIR$/120-quarkus-sample-container-image/120-quarkus-sample-container-image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/121-quarkus-sample-kubernetes/121-quarkus-sample-kubernetes.iml" filepath="$PROJECT_DIR$/121-quarkus-sample-kubernetes/121-quarkus-sample-kubernetes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/122-quarkus-sample-openshift/122-quarkus-sample-openshift.iml" filepath="$PROJECT_DIR$/122-quarkus-sample-openshift/122-quarkus-sample-openshift.iml" />
+      <module fileurl="file://$PROJECT_DIR$/123-quarkus-sample-knative/123-quarkus-sample-knative.iml" filepath="$PROJECT_DIR$/123-quarkus-sample-knative/123-quarkus-sample-knative.iml" />
+      <module fileurl="file://$PROJECT_DIR$/124-quarkus-sample-kubernetes-customizing/124-quarkus-sample-kubernetes-customizing.iml" filepath="$PROJECT_DIR$/124-quarkus-sample-kubernetes-customizing/124-quarkus-sample-kubernetes-customizing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quarkus-sample.iml" filepath="$PROJECT_DIR$/quarkus-sample.iml" />
+    </modules>
+  </component>
+</project>

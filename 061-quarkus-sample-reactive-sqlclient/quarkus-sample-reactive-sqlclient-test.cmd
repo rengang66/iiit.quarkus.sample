@@ -1,0 +1,15 @@
+
+
+curl http://localhost:8080/projects/reactive/
+
+curl http://localhost:8080/projects/reactive/1/
+
+curl -X POST  -H "Content-type: application/json" -d {\"id\":5,\"name\":\"项目ABC\"} http://localhost:8080/projects/reactive/add
+
+curl -X PUT  -H "Content-type: application/json" -d {\"id\":5,\"name\":\"项目ABC修改\"} http://localhost:8080/projects/reactive/update
+
+curl -X DELETE http://localhost:8080/projects/reactive/delete/4 -v
+
+pause
+
+

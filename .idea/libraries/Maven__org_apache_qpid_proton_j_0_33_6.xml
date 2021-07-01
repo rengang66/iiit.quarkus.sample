@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.qpid:proton-j:0.33.6">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/qpid/proton-j/0.33.6/proton-j-0.33.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/qpid/proton-j/0.33.6/proton-j-0.33.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/qpid/proton-j/0.33.6/proton-j-0.33.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

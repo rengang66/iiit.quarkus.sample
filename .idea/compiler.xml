@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="013-quarkus-hello-lifecycle" />
+        <module name="024-quarkus-sample-websockets" />
+        <module name="064-quarkus-sample-reactive-mongodb" />
+        <module name="120-quarkus-sample-container-image" />
+        <module name="031-quarkus-sample-orm-hibernate" />
+        <module name="034-quarkus-sample-mongodb" />
+        <module name="056-quarkus-sample-security-openid-connect-web" />
+        <module name="012-quarkus-hello-command-mode" />
+        <module name="123-quarkus-sample-knative" />
+        <module name="055-quarkus-sample-security-keycloak" />
+        <module name="040-quarkus-sample-kafka-streams" />
+        <module name="070-quarkus-sample-fault-tolerance" />
+        <module name="101-quarkus-sample-integrate-spring-web" />
+        <module name="103-quarkus-sample-integrate-spring-security" />
+        <module name="067-quarkus-sample-vertx" />
+        <module name="060-quarkus-sample-reactive-mutiny" />
+        <module name="050-quarkus-sample-security-file" />
+        <module name="065-quarkus-sample-reactive-hibernate" />
+        <module name="071-quarkus-sample-microprofile-health" />
+        <module name="114-quarkus-hello-extends-test" />
+        <module name="062-quarkus-sample-reactive-redis" />
+        <module name="035-quarkus-sample-orm-panache-activerecord" />
+        <module name="063-quarkus-sample-reactive-amqp" />
+        <module name="102-quarkus-sample-integrate-spring-data" />
+        <module name="052-quarkus-sample-security-jpa" />
+        <module name="011-quarkus-hello-cdi" />
+        <module name="073-quarkus-sample-opentracing" />
+        <module name="053-quarkus-sample-security-jwt" />
+        <module name="020-quarkus-sample-rest-json" />
+        <module name="061-quarkus-sample-reactive-sqlclient" />
+        <module name="010-quarkus-hello" />
+        <module name="122-quarkus-sample-openshift" />
+        <module name="124-quarkus-sample-kubernetes-customizing" />
+        <module name="054-quarkus-sample-security-oauth2" />
+        <module name="015-quarkus-hello-logging" />
+        <module name="066-quarkus-sample-reactive-kafka" />
+        <module name="105-quarkus-sample-integrate-springcloud-configclient" />
+        <module name="021-quarkus-sample-openapi-swaggerui" />
+        <module name="023-quarkus-sample-graphql" />
+        <module name="014-quarkus-hello-config" />
+        <module name="037-quarkus-sample-jta" />
+        <module name="041-quarkus-sample-jms-artemis" />
+        <module name="121-quarkus-sample-kubernetes" />
+        <module name="018-quarkus-sample-gof23" />
+        <module name="105-springcloud-config-server" />
+        <module name="104-quarkus-sample-integrate-springboot-properties" />
+        <module name="057-quarkus-sample-security-openid-connect-service" />
+        <module name="100-quarkus-sample-integrate-spring-di" />
+        <module name="033-quarkus-sample-redis" />
+        <module name="036-quarkus-sample-jpa-transaction" />
+        <module name="045-quarkus-sample-mqtt" />
+        <module name="042-quarkus-sample-jms-qpid" />
+        <module name="051-quarkus-sample-security-jdbc" />
+        <module name="016-quarkus-hello-cache" />
+        <module name="032-quarkus-sample-orm-hibernate-h2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="010-quarkus-hello" target="8" />
+      <module name="011-quarkus-hello-cdi" target="8" />
+      <module name="012-quarkus-hello-command-mode" target="8" />
+      <module name="013-quarkus-hello-lifecycle" target="8" />
+      <module name="014-quarkus-hello-config" target="8" />
+      <module name="015-quarkus-hello-logging" target="8" />
+      <module name="016-quarkus-hello-cache" target="8" />
+      <module name="018-quarkus-sample-gof23" target="8" />
+      <module name="020-quarkus-sample-rest-json" target="8" />
+      <module name="021-quarkus-sample-openapi-swaggerui" target="8" />
+      <module name="023-quarkus-sample-graphql" target="8" />
+      <module name="024-quarkus-sample-websockets" target="8" />
+      <module name="031-quarkus-sample-orm-hibernate" target="1.8" />
+      <module name="032-quarkus-sample-orm-hibernate-h2" target="1.8" />
+      <module name="033-quarkus-sample-redis" target="1.8" />
+      <module name="034-quarkus-sample-mongodb" target="1.8" />
+      <module name="035-quarkus-sample-orm-panache-activerecord" target="1.8" />
+      <module name="036-quarkus-sample-jpa-transaction" target="1.8" />
+      <module name="037-quarkus-sample-jta" target="1.8" />
+      <module name="040-quarkus-sample-kafka-streams" target="1.8" />
+      <module name="041-quarkus-sample-jms-artemis" target="1.8" />
+      <module name="042-quarkus-sample-jms-qpid" target="1.8" />
+      <module name="045-quarkus-sample-mqtt" target="1.8" />
+      <module name="050-quarkus-sample-security-file" target="1.8" />
+      <module name="051-quarkus-sample-security-jdbc" target="8" />
+      <module name="052-quarkus-sample-security-jpa" target="8" />
+      <module name="053-quarkus-sample-security-jwt" target="1.8" />
+      <module name="054-quarkus-sample-security-oauth2" target="1.8" />
+      <module name="055-quarkus-sample-security-keycloak" target="1.8" />
+      <module name="056-quarkus-sample-security-openid-connect-web" target="1.8" />
+      <module name="057-quarkus-sample-security-openid-connect-service" target="1.8" />
+      <module name="060-quarkus-sample-reactive-mutiny" target="1.8" />
+      <module name="061-quarkus-sample-reactive-sqlclient" target="8" />
+      <module name="062-quarkus-sample-reactive-redis" target="1.8" />
+      <module name="063-quarkus-sample-reactive-amqp" target="1.8" />
+      <module name="064-quarkus-sample-reactive-mongodb" target="1.8" />
+      <module name="065-quarkus-sample-reactive-hibernate" target="1.8" />
+      <module name="066-quarkus-sample-reactive-kafka" target="1.8" />
+      <module name="067-quarkus-sample-vertx" target="1.8" />
+      <module name="070-quarkus-sample-fault-tolerance" target="1.8" />
+      <module name="071-quarkus-sample-microprofile-health" target="1.8" />
+      <module name="073-quarkus-sample-opentracing" target="1.8" />
+      <module name="100-quarkus-sample-integrate-spring-di" target="1.8" />
+      <module name="101-quarkus-sample-integrate-spring-web" target="1.8" />
+      <module name="102-quarkus-sample-integrate-spring-data" target="1.8" />
+      <module name="103-quarkus-sample-integrate-spring-security" target="1.8" />
+      <module name="104-quarkus-sample-integrate-springboot-properties" target="1.8" />
+      <module name="105-quarkus-sample-integrate-springcloud-configclient" target="1.8" />
+      <module name="105-quarkus-sample-integrate-springcloud-configserver" target="1.5" />
+      <module name="105-springcloud-config-server" target="1.6" />
+      <module name="114-quarkus-hello-extends-test" target="1.8" />
+      <module name="120-quarkus-sample-container-image" target="1.8" />
+      <module name="121-quarkus-sample-kubernetes" target="1.8" />
+      <module name="122-quarkus-sample-openshift" target="8" />
+      <module name="123-quarkus-sample-knative" target="1.8" />
+      <module name="124-quarkus-sample-kubernetes-customizing" target="1.8" />
+      <module name="quarkus-sample" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="031-quarkus-sample-orm-hibernate" options="-parameters" />
+      <module name="032-quarkus-sample-orm-hibernate-h2" options="-parameters" />
+      <module name="035-quarkus-sample-orm-panache-activerecord" options="-parameters" />
+      <module name="036-quarkus-sample-jpa-transaction" options="-parameters" />
+      <module name="037-quarkus-sample-jta" options="-parameters" />
+      <module name="065-quarkus-sample-reactive-hibernate" options="-parameters" />
+    </option>
+  </component>
+</project>

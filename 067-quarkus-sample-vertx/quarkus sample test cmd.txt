@@ -1,0 +1,67 @@
+
+mvnw compile quarkus:dev
+
+
+———————————————accessvertx——————————————
+curl http://localhost:8080/vertx/bare
+curl http://localhost:8080/vertx/mutiny
+curl http://localhost:8080/vertx/reactivex
+curl http://localhost:8080/vertx/axle
+curl http://localhost:8080/vertx/mutiny/getfile
+
+
+———————————————webclient——————————————
+curl http://localhost:8080/vertx/webclient/1
+
+———————————————routes——————————————
+curl http://localhost:8080/route/projects
+curl http://localhost:8080/route/getprojects
+curl  http://localhost:8080/route/hello
+curl  http://localhost:8080/route/registar
+
+curl  -d \"id\"=1 http://localhost:8080/route/getproject
+curl -H "Content-type: application/json" -d {\"id\":1} http://localhost:8080/route/getproject
+curl  http://localhost:8080/route/getproject?id=1
+
+———————————————pgclient——————————————
+curl http://localhost:8080/projectpgs
+curl http://localhost:8080/projectpgs/1
+
+curl -X POST  -H "Content-type: application/json" -d {\"id\":5,\"name\":\"��ĿABC\"} http://localhost:8080/projectpgs
+
+curl -X PUT  -H "Content-type: application/json" -d {\"id\":5,\"name\":\"��ĿABC�޸�\"} http://localhost:8080/projectpgs/5
+
+curl -X DELETE http://localhost:8080/projectpgs/4 -v
+
+———————————————EventBus——————————————
+curl http://localhost:8080/eventbus/1
+curl http://localhost:8080/eventbus/2
+
+———————————————stream——————————————
+curl http://localhost:8080/stream/reng
+
+———————————————delay——————————————
+curl http://localhost:8080/vertx/delay/1
+
+———————————————json——————————————
+curl http://localhost:8080/vertx/json/object/reng
+curl http://localhost:8080/vertx/json/array/reng
+
+
+curl http://localhost:8080/async/rengang
+
+curl http://localhost:8080/hello/rengang
+
+curl http://localhost:8080/fruit-data/1
+curl http://localhost:8080/fruit-data/Orange
+
+curl http://localhost:8080/hello/rengang/object
+curl http://localhost:8080/hello/rengang/array
+
+curl http://localhost:8080/hello/rengang/streaming
+
+
+
+
+
+

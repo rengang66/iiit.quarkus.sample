@@ -1,0 +1,10 @@
+
+mvnw compile quarkus:dev
+
+curl http://localhost:8080/projects/latestdata
+
+
+
+
+
+

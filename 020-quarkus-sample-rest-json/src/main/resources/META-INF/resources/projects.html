@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Project REST service页面测试</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/wingcss/0.1.8/wing.min.css"/>
+    <!-- Load AngularJS -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script type="text/javascript">
+      var app = angular.module("ProjectManagement", []);
+
+      //Controller Part
+      app.controller("ProjectManagementController", function ($scope, $http) {
+
+        //Initialize page with default data which is blank in this example
+        $scope.projects = [];
+
+        $scope.form = {
+          name: "",
+          description: ""
+        };
+
+        //Now load the data from server
+        _refreshPageData();
+
+        //HTTP POST methods for add projects
+        $scope.add = function () {
+          var data = { "name": $scope.form.name, "description": $scope.form.description };
+
+          $http({
+            method: "POST",
+            url: '/projects',
+            data: angular.toJson(data),
+            headers: {
+              'Content-Type': 'application/json'
+            }
+          }).then(_success, _error);
+        };
+
+        /* Private Methods */
+        //HTTP GET- get all projects collection
+        function _refreshPageData() {
+          $http({
+            method: 'GET',
+            url: '/projects'
+          }).then(function successCallback(response) {
+            $scope.projects = response.data;
+          }, function errorCallback(response) {
+            console.log(response.statusText);
+          });
+        }
+
+        function _success(response) {
+          _refreshPageData();
+          _clearForm();
+        }
+
+        function _error(response) {
+          alert(response.data.message || response.statusText);
+        }
+
+        //Clear the form
+        function _clearForm() {
+          $scope.form.name = "";
+          $scope.form.description = "";
+        }
+      });
+    </script>
+</head>
+
+<body ng-app="ProjectManagement" ng-controller="ProjectManagementController">
+
+<div class="container">
+    <h1>REST Service - Project</h1>
+
+    <h3>增加一个 project</h3>
+    <form ng-submit="add()">
+        <div class="row">
+            <div class="col-6"><input type="text" placeholder="Name" ng-model="form.name" size="60"/></div>
+        </div>
+        <div class="row">
+            <div class="col-6"><input type="text" placeholder="Description" ng-model="form.description" size="60"/></div>
+        </div>
+        <input type="submit" value="提交"/>
+    </form>
+
+    <h3>项目列表</h3>
+    <div class="row">
+        <div class="col-4">项目名称</div>
+        <div class="col-8">项目描述</div>
+    </div>
+    
+    <div class="row" ng-repeat="project in projects">
+        <div class="col-4">{{ project.name }}</div>
+        <div class="col-8">{{ project.description }}</div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/runtime/quarkus-sample-extension-project.iml" filepath="$PROJECT_DIR$/runtime/quarkus-sample-extension-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deployment/quarkus-sample-extension-project-deployment.iml" filepath="$PROJECT_DIR$/deployment/quarkus-sample-extension-project-deployment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quarkus-sample-extension-project-parent.iml" filepath="$PROJECT_DIR$/quarkus-sample-extension-project-parent.iml" />
+    </modules>
+  </component>
+</project>
